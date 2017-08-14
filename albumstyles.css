@@ -3,12 +3,27 @@ h1,h2,h3,h4,h5,h6 {
 }
 td {
     text-align: center;
+    font-style: italic;
 }
 li {
     font-style: italic;
 }
 h1,h2 {
-    font-family: 'AvaraBold'; 
-   font-weight: normal; 
-   font-style: normal; 
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+a:active {
+    text-decoration: none;
+}
+tbody {
+    background-color: lavender;
 }
